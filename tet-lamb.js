@@ -36,6 +36,6 @@ handler({
     time: '11/Jun/2025:10:57:14 +0000',
     timeEpoch: 1749639434001
   },
-  body: '{"device_id":"358899059930571", "latitude":"26.9169", "longitude":"75.7999", "speed":"0.00"}',
+  body: '{"device_id":"VEHICLE_1753101482891_8417", "latitude":"12.9169", "longitude":"12.7999", "speed":"0.00"}',
   isBase64Encoded: false
 });

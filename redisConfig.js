@@ -1,6 +1,6 @@
 import Redis from "ioredis";
 
-export const REDIS_URL="";
+export const REDIS_URL="rediss://default:AVNS_fP4uGTRKwHJy37BW4rw@valkey-2bf34b12-chotuai-2e6f.k.aivencloud.com:28681";
 export const createRedisClient = () => {
   const client = new Redis(REDIS_URL, {
     tls: {

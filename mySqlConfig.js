@@ -2,7 +2,10 @@ import mysql from "mysql2/promise";
 
 export const dbConfig = {
   uri:
-    process.env.DATABASE_URL};
+    process.env.DATABASE_URL ||
+    // "mysql://avnadmin:AVNS_Ee5wJn2FEslVQtUFzR9@mysql-11691c1c-abdul123arj-9223.a.aivencloud.com:13747/defaultdb?ssl-mode=REQUIRED",
+    "mysql://root:N@veed123@localhost:3306/trackingapp"
+};
 
 
 
